@@ -12,5 +12,5 @@ jobs:
     - uses: actions/first-interaction@v1
       with:
         repo-token: ${{ secrets.GITHUB_TOKEN }}
-        issue-message: "Have issues or ideas? Here's the place to share them!"
-        pr-message: "Time for a pull!"
+        issue-message: "What's your issue, we'll come to fixing it (or if it's an idea, even better **we'll add it!**)"
+        pr-message: "Now here you can help out!"
